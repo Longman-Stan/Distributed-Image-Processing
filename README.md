@@ -1,7 +1,7 @@
 # Distributed image processing
 			Lungu-Stan Vlad-Constantin, 334CB, tema3 APD
 	
-	Abordarea mea este una simpla, dar, zic eu, eficienta. In primul rand imi declar filtrele
+  	Abordarea mea este una simpla, dar, zic eu, eficienta. In primul rand imi declar filtrele
 deja rotite, global, fiind constante. Tot global imi declar alte variabile necesare, cum ar fi 
 datele despre imagine( width, height, si numarul de canale, tipul de imagine (P5 sau P6)), 
 imaginea in sine, base_size si num_add (variabile folosite pentru calcularea portiunii de imagine
@@ -84,8 +84,6 @@ din outputul checkerului.
 	2 procese: 1m56.193s
 	1 proces:  3m8.557s
 	
-	Rezultatele in detaliu pot fi gasite in printscreen-urile rorschach-scalability.bmp si
-landscape-scalability.bmp. 
 	Programul a fost rulat pe un Intel Core m7-6y75, un procesor dual core cu hyper-threading
 (2 cores, 4 threads). De aceea intre 1 si 2 core-uri se observa o scadere semnificativa a
 timpului. Dupa aceea, scaderea este mai putin semnificativa. 
