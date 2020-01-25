@@ -1,4 +1,5 @@
-		Lungu-Stan Vlad-Constantin, 334CB, tema3 APD
+#Distributed image processing
+			Lungu-Stan Vlad-Constantin, 334CB, tema3 APD
 	
 	Abordarea mea este una simpla, dar, zic eu, eficienta. In primul rand imi declar filtrele
 deja rotite, global, fiind constante. Tot global imi declar alte variabile necesare, cum ar fi 
